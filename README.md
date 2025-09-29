@@ -2,7 +2,7 @@
 $ docker build -t thinscalanative .
 
 $ docker image inspect thinscalanative | jq '.[0].Size'
-1451396
+3646159
 
 $ time docker run --rm -it thinscalanative
 Hello world!
